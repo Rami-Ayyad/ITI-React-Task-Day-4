@@ -1,0 +1,34 @@
+.favBigContainer{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  gap:15px;
+}
+
+.favCard img{
+  width:inherit
+}
+
+.favCard {
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  .favCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .favContainer {
+    padding: 2px 16px;
+  }
+
+  .favContainer i{
+    color: rgb(158, 16, 16);
+  }
+
+  .favContainer i:hover{
+    cursor: pointer;
+    text-shadow:0 0 8px rgb(153, 0, 255);
+  }
+

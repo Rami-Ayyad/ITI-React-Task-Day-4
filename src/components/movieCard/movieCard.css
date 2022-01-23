@@ -1,0 +1,31 @@
+
+.movieCard {
+    width: 200px;
+    height: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+  .movieCard img{
+    width: inherit;
+    /* height: 400px; */
+  }
+  
+  .movieCard:hover {
+    box-shadow: 0 8px 16px 10px rgba(9, 218, 113, 0.5);
+    transform: scale(1.01);
+  }
+  
+  .movieContainer {
+    padding: 2px 16px;
+  }
+
+  .movieContainer i:hover{
+    cursor: pointer;
+    text-shadow:0 0 8px rgb(153, 0, 255);
+
+  }
+
+  .checked{
+    color:orange
+  }
